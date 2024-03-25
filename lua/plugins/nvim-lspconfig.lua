@@ -7,7 +7,7 @@ return {
       julials = {},
       clangd = {
         cmd = { "clangd", "--clang-tidy", "--completion-style=detailed", "--header-insertion=never", "--enable-config" },
-        filetypes = { "c", "cpp", "objc", "objcpp" },
+        filetypes = { "c", "cpp", "objc", "objcpp", "h", "hpp" },
         settings = {
           cquery = {
             cache = {
