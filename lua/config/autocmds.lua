@@ -4,3 +4,8 @@
 --
 --Set the colorscheme
 vim.cmd([[colorscheme vscode]])
+
+-- activate wrap when document is saved
+vim.cmd([[
+autocmd BufWritePost * let &wrap = 1 
+]])
