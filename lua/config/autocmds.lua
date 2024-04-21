@@ -3,7 +3,7 @@
 -- Add any additional autocmds here
 --
 --Set the colorscheme
-vim.cmd([[colorscheme vscode]])
+vim.cmd([[colorscheme nordic]])
 
 -- activate wrap when document is saved
 vim.cmd([[
