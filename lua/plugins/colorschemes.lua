@@ -4,12 +4,9 @@ return {
   -- { "Mofiqul/vscode.nvim", priority = 1000 },
   --
   {
-    "AlexvZyl/nordic.nvim",
+    "gbprod/nord.nvim",
     lazy = false,
     priority = 1000,
-    config = function()
-      require("nordic").load()
-    end,
   },
 }
 --
