@@ -6,6 +6,4 @@
 vim.cmd([[colorscheme nord]])
 
 -- activate wrap when document is saved
-vim.cmd([[
-autocmd BufWritePost * let &wrap = 1 
-]])
+vim.cmd([[autocmd BufWritePost * let &wrap = 1]])
