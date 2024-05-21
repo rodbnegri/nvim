@@ -2,5 +2,4 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
--- add winbar at the top-right showing path
-vim.opt.winbar = "%=%m %f"
+-- add winbar at the top-right showing path vim.opt.winbar = "%=%m %f"
