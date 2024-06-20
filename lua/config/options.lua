@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 -- add winbar at the top-right showing path vim.opt.winbar = "%=%m %f"
+vim.g.maplocalleader = ","
