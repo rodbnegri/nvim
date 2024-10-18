@@ -4,7 +4,7 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      julials = {},
+      julials = {}, -- LSP para Julia
       clangd = {
         cmd = { "clangd", "--clang-tidy", "--completion-style=detailed", "--header-insertion=never", "--enable-config" },
         filetypes = { "c", "cpp", "objc", "objcpp", "h", "hpp" },
@@ -23,7 +23,8 @@ return {
           },
         },
       },
-      fortls = {},
+      fortls = {}, -- LSP para FORTRAN
+      asm_lsp = {}, -- LSP para Assembly
     },
   },
 }
